@@ -1429,16 +1429,17 @@ textarea.contact-form-text{
 }
 .conbtn{
   border: 0;
-  background: #555;
-  color: #fff;
+  background: #111;
+  color: rgb(179, 177, 177);
   padding: 12px 50px;
   border-radius: 20px;
   cursor: pointer;
   transition: 0.5s;
+  border: 2px solid rgb(0, 0, 0);
 }
 .conbtn:hover{
-  background: rgb(17, 16, 16);
-  border: 1px solid #ffcc33;
+  background: rgb(27, 26, 26);
+  border: 2px solid #ffcc33;
 }
 
 
