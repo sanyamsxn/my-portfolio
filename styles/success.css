@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background : rgb(28, 28, 28);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(174, 171, 171);
+    cursor: pointer;
+   
+}
+span{
+    font-size: 2.2em;
+    color: #555;
+}
+
+a:hover{
+    color: #ffcc33;
+    text-decoration: underline;
+}
+
+
+h1{
+    color: rgba(11, 176, 11, 0.878);
+    font-weight: 500;
+    font-size: 3.5em;
+}
