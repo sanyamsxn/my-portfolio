@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <link rel="stylesheet" href="styles/fontawesome.min.css" />
+        <link
+            rel="shortcut icon"
+            href="./images/icons/website-icon.png"
+            type="image/x-icon"
+        />
+        <!-- <link rel="stylesheet" href="styles/style.css" /> -->
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400&display=swap"
+            rel="stylesheet"
+        />
+        <title>Sanyam</title>
+        <script defer src="scripts/app.js"></script>
+    </head>
+
+    <body class="body">
+
+
+        <!-- header -->
+        <header class="header">
+            <section class="header__title-container">
+                
+                <h2 class="header__title"><b style="color:#ffcc33"> SANYAMS</b> </h2>
+            </section>
+
+            <section class="header__menu">
+                <button class="button menu-button">
+                    <span class="hamburger"></span>
+                </button>
+            </section>
+
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="list-item">
+                        <a href="#" class="link link--home">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#main__skills" class="link link--skills">Skills</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#services" class="link link--projects"
+                            >My Projects</a
+                        >
+                    </li>
+                    <li class="list-item">
+                        <a href="#main__work-experience" class="link link--work-exp"
+                            >Work Experience</a
+                        >
+                    </li>
+                    <li class="list-item list-item--contact">
+                        <a href="#main__contact-me" class="link link--contact-me"
+                            >Contact Me</a
+                        >
+                        <span class="contact-bg"></span>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="container">
+
+            <!-- aside menu bar -->
+            <aside class="aside">
+                <ul class="aside-nav__list">
+                    <li class="aside-list-item">
+                        <a href="#" class="aside-link aside-link--home">
+                            <i class="fa-solid fa-house-chimney aside-icon"></i>
+                        </a>
+                    </li>
+                    <li class="aside-list-item">
+                        <a href="#main__skills" class="aside-link aside-link--skills">
+                            <i class="fa-solid fa-code aside-icon"></i>
+                        </a>
+                    </li>
+                    <li class="aside-list-item">
+                        <a href="#services" class="aside-link aside-link--projects">
+                            <i class="fa-solid fa-puzzle-piece aside-icon"></i>
+                        </a>
+                    </li>
+                    <li class="aside-list-item">
+                        <a
+                            href="#main__work-experience"
+                            class="aside-link aside-link--work-exp"
+                        >
+                            <i class="fa-solid fa-briefcase aside-icon"></i>
+                        </a>
+                    </li>
+                    <li class="aside-list-item">
+                        <a
+                            href="#main__contact-me"
+                            class="aside-link aside-link--contact-me"
+                        >
+                            <i class="fa-solid fa-phone aside-icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+
+            <main class="main">
+                <section class="main__intro-animation section">
+                    <article class="user-intro">
+                        <h3 class="intro-greeting-text">
+                            <span>Hello</span> I am
+                        </h3>
+                        <div class="intro-username-container">
+                            
+                            <h2 class="full-name">SANYAM SAXENA</h2>
+                        </div>
+                        <h3 class="intro-welcome-text">
+                            Welcome To My <span>Portfolio!</span>
+                        </h3>
+                    </article>
+
+                    <article class="separator"></article>
+                </section>
+
+                <section class="main__hero-section section">
+                    <article class="hero__image">
+                       
+                        <img
+                            src="./images/profile_pic.jpg"
+                            alt="Sanyam"
+                            class="portfolio-hero-image"
+                        />
+
+                        <div class="image__bg"></div>
+                    </article>
+
+                    <article class="hero__intro">
+                        <h2 class="intro__title">
+                            I am
+                          
+                            <span class="title__name">
+                                
+                                <span class="title__first-name">Sanyam</span>
+                                
+                                <span class="title__middle-name"></span>
+                                
+                                <span class="title__last-name">Saxena</span>
+                            </span>
+                        </h2>
+
+                       
+                        <h3 class="intro__designation">FULL STACK WEB DEVELOPER</h3>
+
+                       
+                        <p class="intro__text">
+                            I build Full Stack (Client and Server) side websites. I am a Full stack MERN as well as MEAN Developer. 
+
+                        </p>
+
+                        <div class="intro__buttons">
+                            <a href="#main__skills" class="link link--know-more">
+                                Know More
+                                <span class="know-more-icon">
+                                    <i class="fa-solid fa-angles-down"></i>
+                                </span>
+                            </a>
+                            <a href="#main__contact-me" class="link link--hire-me">
+                                <span class="button-overlay"></span>
+                                <span class="button-text">Let's Connect</span>
+                            </a>
+                        </div>
+                    </article>
+                </section>
+
+                <section class="main__skills section" id="main__skills">
+                    <article class="skills__title">
+                        <h3 class="title__text">Skills & Tech</h3>
+                        <p class="title__brief">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Labore recusandae voluptates quas id, magni iste soluta a
+                            blanditiis perspiciatis architecto.
+                        </p>
+                    </article>
+
+                    <article class="skills__container">
+                        <!-- 
+                            To add more:
+                            1. Copy/paste the skill-card div and edit the content to your own needs.
+                            2. The name of the skill to be displaed on hover, must be the second class name
+                               of the "skill-card" div, in the format: skill-card--skill_name.
+                               For skills with multiple words, use underscore.
+
+                               Eg:
+                                <div class="skill-card skill-card--some_random_skill">
+                                </div>
+
+                            3. Update the total number of skill-card divs in the number-of-cards variable 
+                               in the _variables.scss file.
+
+                            NOTE: After editing make sure to set the number of divs to the number-of-cards variable,
+                                  to make it work correctly.
+                         -->
+                        <div class="skill-card skill-card--html">
+                            <div class="skill-icon-container">
+                                <img
+                                    src="./images/tech-icons/html.png"
+                                    alt="HTML"
+                                    class="skill-icon"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="skill-card skill-card--css">
+                            <div class="skill-icon-container">
+                                <img
+                                    src="./images/tech-icons/css.png"
+                                    alt="CSS"
+                                    class="skill-icon"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="skill-card skill-card--sass">
+                            <div class="skill-icon-container">
+                                <img
+                                    src="./images/tech-icons/sass.png"
+                                    alt="Sass"
+                                    class="skill-icon"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="skill-card skill-card--javascript">
+                            <div class="skill-icon-container">
+                                <img
+                                    src="./images/tech-icons/js.png"
+                                    alt="Javascript"
+                                    class="skill-icon"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="skill-card skill-card--react">
+                            <div class="skill-icon-container">
+                                <img
+                                    src="./images/tech-icons/react.png"
+                                    alt="React"
+                                    class="skill-icon"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="skill-card skill-card--figma">
+                            <div class="skill-icon-container">
+                                <img
+                                    src="./images/tech-icons/figma.png"
+                                    alt="figma"
+                                    class="skill-icon"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="skill-card skill-card--git">
+                            <div class="skill-icon-container">
+                                <img
+                                    src="./images/tech-icons/git.png"
+                                    alt="git"
+                                    class="skill-icon"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="skill-card skill-card--github">
+                            <div class="skill-icon-container">
+                                <img
+                                    src="./images/tech-icons/github.png"
+                                    alt="github"
+                                    class="skill-icon"
+                                />
+                            </div>
+
+                            <div class="skill-card-separator"></div>
+                        </div>
+
+                        <!-- Leave this empty. JS takes care of this. -->
+                        <h3 class="skill-title"></h3>
+                    </article>
+                </section>
+
+
+                <!-- services section  -->
+                <section id="services">
+                    <div class="servicesM">
+                        <div class="max-width">
+                            <h1 class="title__text">Our Services</h1>
+                            <h1 class="title__text" style="margin-top:1px; font-size: 2.2rem;">WHAT I OFFER:</h1>
+                            <div class="Sercontent">
+                                <div class="Sercard">
+                                    <div class="Serbox">
+                                        <i class="fa fa-code"></i>
+                                        <h3>Front End</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus incidunt labore debitis ea repudiandae numquam.</p>
+                                    </div>
+                                </div>
+                                <div class="Sercard">
+                                    <div class="Serbox">
+                                        <i class="fa fa-code"></i>
+                                        <h3>Full Stack Website</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus incidunt labore debitis ea repudiandae numquam.</p>
+                                    </div>
+                                </div>
+                                <div class="Sercard">
+                                    <div class="Serbox">
+                                        <i class="fa fa-code"></i>
+                                        <h3>UI Design</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus incidunt labore debitis ea repudiandae numquam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+               <br>
+
+                <!-- projects section -->
+                <section id="projects">
+                    <div class="ProMaxWidth">
+                        <h1 class="title__text">Projects</h1>
+                        <div class="ProjectContent">
+                            <div class="Procard">
+                                <div class="ProimgBx">
+                                    <img src="./images/projects/todo-listImg.png">
+                                    <img src="./images/projects/todo-list.gif" class="ProimgHover">
+                                </div>
+                                <div class="Procontent">
+                                    <div class="Prodetails">
+                                        <h2><u>To-do List</u></h2>
+                                        <div class="Prodata">
+                    
+                                            <p id="ProAbout">A Instagram like website which allows user to sign up, signin and can
+                                                post their Travelling pictures and can see other people stories and can like or dislike them.
+                                            </p>
+                                           <h2><u>Used</u> :</h2>
+                                            <ul>
+                                                <li>Angular</li>
+                                                <li>Angular</li>
+                                                <li>Angular</li>
+                                                <li>Firebase</li>
+                                                <li>Bootstrap</li>
+                                            </ul>
+                                        </div>
+                                        <div class="ProBtn">
+                                            <button>Github repo</button>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="Procard">
+                                <div class="ProimgBx">
+                                    <img src="./images/projects/travelgramImg.png">
+                                    <img src="./images/projects/travelgram.gif" class="ProimgHover">
+                                </div>
+                                <div class="Procontent">
+                                    <div class="Prodetails">
+                                        <h2><u>Travelgram</u></h2>
+                                        <div class="Prodata">
+                    
+                                            <p id="ProAbout">A Instagram like website which allows user to sign up, signin and can
+                                                post their Travelling pictures and can see other people stories and can like or dislike them.
+                                            </p>
+                                           <h2><u>Used</u> :</h2>
+                                            <ul>
+                                                <li>Angular</li>
+                                                <li>Firebase</li>
+                                                <li>Firebase</li>
+                                                <li>Firebase</li>
+                                                <li>Bootstrap</li>
+                                            </ul>
+                                        </div>
+                                        <div class="ProBtn">
+                                            <button>Github repo</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Procard">
+                                <div class="ProimgBx">
+                                    <img src="./images/projects/portfolioImg.png">
+                                    <img src="./images/projects/portfolio.gif" class="ProimgHover">
+                                </div>
+                                <div class="Procontent">
+                                    <div class="Prodetails">
+                                        <h2><u>Portfolio</u></h2>
+                                        <div class="Prodata">
+                    
+                                            <p id="ProAbout">A Instagram like website which allows user to sign up, signin and can
+                                                post their Travelling pictures and can see other people stories and can like or dislike them.
+                                            </p>
+                                           <h2><u>Used</u> :</h2>
+                                            <ul>
+                                                <li>Angular</li>
+                                                <li>Angular</li>
+                                                <li>Firebase</li>
+                                                <li>Firebase</li>
+                                                <li>Bootstrap</li>
+                                            </ul>
+                                        </div>
+                                        <div class="ProBtn">
+                                            <button>Github repo</button>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="Procard">
+                                <div class="ProimgBx">
+                                    <img src="./images/projects/githubImg.png">
+                                    <img src="./images/projects/github.gif" class="ProimgHover">
+                                    
+                                </div>
+                                <div class="Procontent">
+                                    <div class="Prodetails">
+                                        <h2><u>Github Profile Searcher</u></h2>
+                                        <div class="Prodata">
+                    
+                                            <p id="ProAbout">A Instagram like website which allows user to sign up, signin and can
+                                                post their Travelling pictures and can see other people stories and can like or dislike them.
+                                            </p>
+                                           <h2><u>Used</u> :</h2>
+                                            <ul>
+                                                <li>Angular</li>
+                                                <li>Firebase</li>
+                                                <li>Bootstrap</li>
+                                                <li>Firebase</li>
+                                                <li>APIs</li>
+                                            </ul>
+                                        </div>
+                                        <div class="ProBtn">
+                                            <button>Github repo</button>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br>
+
+
+                <!-- certificates section -->
+                <section id="certificates">
+                    <h1 class="title__text">Certificates</h1>
+                    <div class="CerMaxWidth">
+                        
+                        <input type="radio" name="dot" id="one">
+                        <input type="radio" name="dot" id="two">
+                        <div class="main-card">
+                    
+                          <!-- 1st page of certificates -->
+                          <div class="Cercards">
+                            <!-- 1st certificate -->
+                            <div class="Cercard">
+                             <div class="Cercontent">
+                               <div class="Cerimg">
+                                - <img src="./images/certificates/MERN_LCO.JPG" alt="">
+                               </div>
+                               <div class="details">
+                                 <div class="name">Reach me out!</div>
+                               </div>
+                               <div class="media-icons">
+                                 <a href="#"><i class="fab fa-github"></i></a>
+                                 <a href="#"><i class="fab fa-linkedin"></i></a>
+                                 <a href="#"><i class="fab fa-twitter"></i></a>
+                                 <a href="#"><i class="fab fa-instagram"></i></a>
+                                
+                               </div>
+                             </div>
+                            </div>
+                             <!-- 2nd certificate -->
+                             <div class="Cercard">
+                              <div class="Cercontent">
+                                <div class="Cerimg">
+                                 - <img src="./images/certificates/MERN_LCO.JPG" alt="">
+                                </div>
+                                <div class="details">
+                                  <div class="name">Reach me out!</div>
+                                </div>
+                                <div class="media-icons">
+                                    <a href="#"><i class="fab fa-github"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                              </div>
+                             </div>
+                    
+                          </div>
+                          <!-- 1st page of certificates ends -->
+
+                          <!-- 2nd page of certificates -->
+                          <div class="Cercards">
+                            <!-- 1st certificate -->
+                            <div class="Cercard">
+                             <div class="Cercontent">
+                               <div class="Cerimg">
+                                - <img src="./images/certificates/MERN_LCO.JPG" alt="">
+                               </div>
+                               <div class="details">
+                                 <div class="name">Reach me out!</div>
+                               </div>
+                               <div class="media-icons">
+                                 <a href="#"><i class="fab fa-github"></i></a>
+                                 <a href="#"><i class="fab fa-linkedin"></i></a>
+                                 <a href="#"><i class="fab fa-twitter"></i></a>
+                                 <a href="#"><i class="fab fa-instagram"></i></a>
+                                
+                               </div>
+                             </div>
+                            </div>
+                             <!-- 2nd certificate -->
+                             <div class="Cercard">
+                              <div class="Cercontent">
+                                <div class="Cerimg">
+                                 - <img src="./images/certificates/MERN_LCO.JPG" alt="">
+                                </div>
+                                <div class="details">
+                                  <div class="name">Reach me out!</div>
+                                </div>
+                                <div class="media-icons">
+                                    <a href="#"><i class="fab fa-github"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                              </div>
+                             </div>
+                    
+                          </div>
+                          <!-- 2nd page of certificates ends -->
+                    
+                          
+                        </div>  <!--main card div ends here -->
+                        <div class="button">
+                          <label for="one" class=" active one"></label>
+                          <label for="two" class="two"></label>
+                        </div>
+                      </div>
+                </section>
+                
+
+
+                <section id="contact">
+                    <h1 class="title__text">contact Me :)</h1>
+                    <div class="ConMaxWidth">
+
+                        <div class="concontent">
+                            <form class="contact-form" action="index.html" method="post">
+                                <input type="text" class="contact-form-text" placeholder="Your name">
+                                <input type="email" class="contact-form-text" placeholder="Your email">
+                                <input type="text" class="contact-form-text" placeholder="Your phone">
+                                <textarea class="contact-form-text" placeholder="Your message"></textarea>
+                                <div class="btnM"><button type="submit" class="conbtn">Send</button></div>
+                              </form>
+                        </div>
+                      </div>
+                </section>
+                
+             </main>
+        </section>
+        <footer class="footer"></footer>
+    </body>
+</html>
