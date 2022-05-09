@@ -1425,6 +1425,7 @@ textarea.contact-form-text{
 }
 .concontent .contact-form .secureC{
   text-align: center;
+  width: 100%;
 }
 .conbtn{
   border: 0;
