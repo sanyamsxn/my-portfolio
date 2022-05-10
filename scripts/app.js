@@ -30,6 +30,7 @@ const skillTextContainer = document.querySelector(".skill-title");
 const servicesSection = document.querySelector("#services")
 const projectsSection = document.querySelector("#projects");
 const certificatesSection = document.querySelector("#certificates");
+const contactMeSection = document.querySelector("#contacts");
 const allProjectCards = document.querySelectorAll(".project-card");
 
 const worksSection = document.querySelector(".main__work-experience");
@@ -50,6 +51,7 @@ const contentSections = [
     servicesSection,
     projectsSection,
     certificatesSection,
+    contactMeSection
     // contactSection,
 ];
 let skillHideTimeout;
