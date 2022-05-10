@@ -463,105 +463,55 @@
                 <!-- certificates section -->
                 <section id="certificates">
                     <h1 class="title__text">Certificates</h1>
-                    <div class="CerMaxWidth">
-                        
-                        <input type="radio" name="dot" id="one">
-                        <input type="radio" name="dot" id="two">
-                        <div class="main-card">
-                    
-                          <!-- 1st page of certificates -->
-                          <div class="Cercards">
-                            <!-- 1st certificate -->
-                            <div class="Cercard">
-                             <div class="Cercontent">
-                               <div class="Cerimg">
-                                - <img src="./images/certificates/MERN_LCO.JPG" alt="">
-                               </div>
-                               <div class="details">
-                                 <div class="name">Reach me out!</div>
-                               </div>
-                               <div class="media-icons">
-                                 <a href="#"><i class="fab fa-github"></i></a>
-                                 <a href="#"><i class="fab fa-linkedin"></i></a>
-                                 <a href="#"><i class="fab fa-twitter"></i></a>
-                                 <a href="#"><i class="fab fa-instagram"></i></a>
-                                
-                               </div>
-                             </div>
-                            </div>
-                             <!-- 2nd certificate -->
-                             <div class="Cercard">
-                              <div class="Cercontent">
+                    <div id="slider">
+                      <input type="radio" name="slider" id="slide1" checked>
+                      <input type="radio" name="slider" id="slide2">
+                      <input type="radio" name="slider" id="slide3">
+                      <input type="radio" name="slider" id="slide4">
+                      <div id="slides">
+                         <div id="overflow">
+                            <div class="inner">
+                               <div class="slide slide_1">
                                 <div class="Cerimg">
-                                 - <img src="./images/certificates/MERN_LCO.JPG" alt="">
-                                </div>
-                                <div class="details">
-                                  <div class="name">Reach me out!</div>
-                                </div>
-                                <div class="media-icons">
-                                    <a href="#"><i class="fab fa-github"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
-                              </div>
-                             </div>
-                    
-                          </div>
-                          <!-- 1st page of certificates ends -->
-
-                          <!-- 2nd page of certificates -->
-                          <div class="Cercards">
-                            <!-- 1st certificate -->
-                            <div class="Cercard">
-                             <div class="Cercontent">
-                               <div class="Cerimg">
-                                - <img src="./images/certificates/MERN_LCO.JPG" alt="">
+                                   <img src="./images/certificates/MERN_LCO.JPG" alt="">
+                                 </div>   
                                </div>
-                               <div class="details">
-                                 <div class="name">Reach me out!</div>
-                               </div>
-                               <div class="media-icons">
-                                 <a href="#"><i class="fab fa-github"></i></a>
-                                 <a href="#"><i class="fab fa-linkedin"></i></a>
-                                 <a href="#"><i class="fab fa-twitter"></i></a>
-                                 <a href="#"><i class="fab fa-instagram"></i></a>
-                                
-                               </div>
-                             </div>
-                            </div>
-                             <!-- 2nd certificate -->
-                             <div class="Cercard">
-                              <div class="Cercontent">
+                               <div class="slide slide_2">
                                 <div class="Cerimg">
-                                 - <img src="./images/certificates/MERN_LCO.JPG" alt="">
-                                </div>
-                                <div class="details">
-                                  <div class="name">Reach me out!</div>
-                                </div>
-                                <div class="media-icons">
-                                    <a href="#"><i class="fab fa-github"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
-                              </div>
-                             </div>
-                    
-                          </div>
-                          <!-- 2nd page of certificates ends -->
-                    
-                          
-                        </div>  <!--main card div ends here -->
-                        <div class="button">
-                          <label for="one" class=" active one"></label>
-                          <label for="two" class="two"></label>
-                        </div>
+                                   <img src="./images/certificates/MERN_LCO.JPG" alt="">
+                                 </div>   
+                               </div>
+                               <div class="slide slide_3">
+                                <div class="Cerimg">
+                                   <img src="./images/certificates/MERN_LCO.JPG" alt="">
+                                 </div>   
+                               </div>
+                               <div class="slide slide_4">
+                                <div class="Cerimg">
+                                   <img src="./images/certificates/MERN_LCO.JPG" alt="">
+                                 </div>   
+                               </div>
+                            </div>
+                         </div>
                       </div>
-                </section>
+                      <div id="controls">
+                         <label for="slide1"></label>
+                         <label for="slide2"></label>
+                         <label for="slide3"></label>
+                         <label for="slide4"></label>
+                      </div>
+                      <div id="bullets">
+                         <label for="slide1"></label>
+                         <label for="slide2"></label>
+                         <label for="slide3"></label>
+                         <label for="slide4"></label>
+                      </div>
+                   </div>
+                  </section>
+                  
                 
 
-
+                <!-- contact html  -->
                 <section id="contact">
                     <h1 class="title__text">contact Me :)</h1>
                     <div class="ConMaxWidth">
@@ -584,3 +534,49 @@
         <footer class="footer"></footer>
     </body>
 </html>
+
+
+
+
+
+
+
+
+<!-- <div class="media-icons">
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+</div> 
+
+.media-icons a{
+  line-height: 50px;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  margin: 0 4px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: #ffcc33;
+  transition: all 0.3s ease;
+}
+.media-icons a:hover{
+  background-color: rgb(253, 253, 253);
+  border-color: #ffcc33;
+}
+
+.media-icons a:hover:nth-child(1){
+  color: #171515;
+}
+.media-icons a:hover:nth-child(2){
+  color: #0072b1;
+}
+.media-icons a:hover:nth-child(3){
+  color:  #00acee;
+}
+.media-icons a:hover:nth-child(4){
+  color: #C13584;
+}
+-->

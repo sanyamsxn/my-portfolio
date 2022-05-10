@@ -1031,7 +1031,7 @@ html {
 }
 
 .max-width h1{
-  margin-top:140px
+  margin-top:160px
 }
 .Sercontent{
   display: flex;
@@ -1107,7 +1107,7 @@ html {
 }
 
 .ProMaxWidth h1{
-  margin-top:140px
+  margin-top:160px
 }
 
 .ProjectContent{
@@ -1240,141 +1240,146 @@ html {
 
 /* certificates css */
 #certificates h1{
-  margin-top:140px
+  margin-top:160px
 }
-#certificates{
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items:center;
+#slider {
+  margin: 0 auto;
+  width: 900px;
+  height: 700px;
+  max-width: 100%;
+  text-align: center;
 }
-.CerMaxWidth{
-  max-width: 1300px;
+#slider input[type=radio] {
+  display: none;
+}
+#slider label {
+  cursor:pointer;
+  text-decoration: none;
+}
+#slides {
+  position: relative;
+  z-index: 1;
+  border: none;
+  box-shadow: 0 5px 5px #ffcc33;
+}
+#overflow {
+  width: 100%;
   overflow: hidden;
-  box-shadow: 0 5px 10px #ffcc33;
-
 }
-.CerMaxWidth .main-card{
-  display: flex;
-  justify-content: space-between;
-  transition: 0.5s;
-  width: 2600px;
+#slide1:checked ~ #slides .inner {
+  margin-left: 0;
 }
-#two:checked ~ .main-card{
+#slide2:checked ~ #slides .inner {
   margin-left: -100%;
 }
-.CerMaxWidth .main-card .Cercards{
-  width: 1300px;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 20px;
-  justify-content: space-evenly;
+#slide3:checked ~ #slides .inner {
+  margin-left: -200%;
 }
-.main-card .Cercards .Cercard{
-  width: 600px;
-  border-radius: 12px;
-  padding: 10px;
-  box-shadow: 0 5px 10px rgba(136, 136, 136, 0.25);
-  transition: all 0.4s ease;
+#slide4:checked ~ #slides .inner {
+  margin-left: -300%;
 }
-.main-card .Cercards .Cercard:hover{
-  transform: translateY(-15px);
+#slides .inner {
+  transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  width: 400%;
+  background-color:green
 }
-.Cercards .Cercard .Cercontent{
-
-  width: 100%;
+#slides .slide {
+  width: 25%;
+  float:left;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.Cercards .Cercard .Cercontent .Cerimg{
-  width: 100%;
-  margin-bottom: 2px;
-}
-.Cercard .Cercontent .Cerimg img{
-  width: 100%;
-}
-.Cercard .Cercontent .name{
-  font-size: 20px;
-  font-weight: 500;
-  font-family: cursive;
-  color: rgb(186, 186, 186);
+  height: 100%;
+  color: #fff;
+  border: none;
 }
 
-.Cercard .Cercontent .media-icons{
-  margin-top: 5px;
-  display: flex;
-
-}
-.media-icons a{
-  text-align: center;
-  line-height: 33px;
-  height: 35px;
-  width: 35px;
-  margin: 0 4px;
-  font-size: 14px;
-  color: rgb(0, 0, 0);
-  border-radius: 50%;
-  border: 2px solid transparent;
-  background: #ffcc33;
-  transition: all 0.3s ease;
-}
-.media-icons a:hover{
-  background-color: rgb(253, 253, 253);
-  border-color: #ffcc33;
-}
-
-.media-icons a:hover:nth-child(1){
-  color: #171515;
-}
-.media-icons a:hover:nth-child(2){
-  color: #0072b1;
-}
-.media-icons a:hover:nth-child(3){
-  color:  #00acee;
-}
-.media-icons a:hover:nth-child(4){
-  color: #C13584;
-}
- .CerMaxWidth .button{
+.Cerimg{
   width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: 20px;
+  height:100%;
 }
-.button label{
-  height: 15px;
-  width: 15px;
-  border-radius: 20px;
-  background: #fff;
-  margin: 0 4px;
-  cursor: pointer;
-  transition: all 0.5s ease;
+.Cerimg img{
+  width: 100%;
+  height: 100%;
 }
-.button label.active{
-  width: 35px;
+
+#controls {
+  margin: -340px 0 0 0;
+  width: 100%;
+  height: 50px;
+  z-index: 3;
+  position: relative;
+  
 }
-#one:checked ~ .button .one{
-  width: 35px;
-}
-#one:checked ~ .button .two{
-  width: 15px;
-}
-#two:checked ~ .button .one{
-  width: 15px;
-}
-#two:checked ~ .button .two{
-  width: 35px;
-}
-input[type="radio"]{
+#controls label {
+  transition: opacity 0.2s ease-out;
   display: none;
+  width: 64px;
+  height: 64px;
+  opacity: .7;
+}
+#controls label:hover {
+  opacity: 1;
+  transform: translateY(-5px);
+  transition:0.2s ease
+}
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(4),
+#slide4:checked ~ #controls label:nth-child(1) {
+  background: url(../images/icons/forward.png) no-repeat;
+  float:right;
+  display: block;
+  margin : 0 -70px 0 0;
+  transition: 0.5s ease;
+}
+#slide1:checked ~ #controls label:nth-child(4),
+#slide2:checked ~ #controls label:nth-child(1),
+#slide3:checked ~ #controls label:nth-child(2),
+#slide4:checked ~ #controls label:nth-child(3) {
+  background: url(../images/icons/backward.png) no-repeat;
+  float:left;
+  margin: 0 0 0 -70px;
+  display: block;
+  transition: 0.5s ease;
+}
+#bullets {
+  margin: 330px 0 0;
+  text-align: center;
+}
+#bullets label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius:100%;
+  background: #ccc;
+  margin: 0 10px;
+}
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4) {
+  background: #ffcc33;
+}
+@media screen and (max-width: 900px) {
+  #slide1:checked ~ #controls label:nth-child(2),
+  #slide2:checked ~ #controls label:nth-child(3),
+  #slide3:checked ~ #controls label:nth-child(4),
+  #slide4:checked ~ #controls label:nth-child(1),
+  #slide1:checked ~ #controls label:nth-last-child(2),
+  #slide2:checked ~ #controls label:nth-last-child(3),
+  #slide3:checked ~ #controls label:nth-last-child(4),
+  #slide4:checked ~ #controls label:nth-last-child(1) {
+     margin: 0;
+  }
+  #slides {
+     max-width: calc(100% - 140px);
+     margin: 0 auto;
+  }
 }
 
 /* contact css                       */
 #contact h1{
-  margin-top: 210px;
+  margin-top: 180px;
 }
 #contact{
   display: flex;
