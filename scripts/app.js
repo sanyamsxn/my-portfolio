@@ -40,6 +40,8 @@ const companyDetails = document.querySelectorAll(".details");
 
 const contactSection = document.querySelector(".main__contact-me ");
 
+console.log
+
 const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 // Animation end time
 const animationEndTime = 3500;
