@@ -54,7 +54,6 @@ const contentSections = [
     projectsSection,
     certificatesSection,
     contactMeSection
-    // contactSection,
 ];
 let skillHideTimeout;
 /* Functions */
@@ -130,21 +129,26 @@ const initializeObserver = function () {
                                 .classList.add("active-link");
                             break;
 
-                        case "main__projects":
+                        case "services":
                             document
                                 .querySelector(".aside-link--projects")
                                 .classList.add("active-link");
                             break;
 
-                        case "main__work-experience":
+                        case "projects":
                             document
                                 .querySelector(".aside-link--work-exp")
                                 .classList.add("active-link");
                             break;
 
-                        case "main__contact-me":
+                        case "certificates":
                             document
                                 .querySelector(".aside-link--contact-me")
+                                .classList.add("active-link");
+                            break;
+                            case "contacts":
+                            document
+                                .querySelector(".aside-link--work-exp")
                                 .classList.add("active-link");
                             break;
                     }

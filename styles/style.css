@@ -922,55 +922,60 @@ html {
 
 .skill-card:nth-child(2).display-skillcard {
   opacity: 1;
-  -webkit-transform: rotate(36deg) translate(14rem) rotate(-36deg);
-          transform: rotate(36deg) translate(14rem) rotate(-36deg);
+  -webkit-transform: rotate(32.5deg) translate(14rem) rotate(-32.5deg);
+          transform: rotate(32.5deg) translate(14rem) rotate(-32.5deg);
 }
 
 .skill-card:nth-child(3).display-skillcard {
   opacity: 1;
-  -webkit-transform: rotate(72deg) translate(14rem) rotate(-72deg);
-          transform: rotate(72deg) translate(14rem) rotate(-72deg);
+  -webkit-transform: rotate(65deg) translate(14rem) rotate(-65deg);
+          transform: rotate(65deg) translate(14rem) rotate(-65deg);
 }
 
 .skill-card:nth-child(4).display-skillcard {
   opacity: 1;
-  -webkit-transform: rotate(108deg) translate(14rem) rotate(-108deg);
-          transform: rotate(108deg) translate(14rem) rotate(-108deg);
+  -webkit-transform: rotate(97.5deg) translate(14rem) rotate(-97.5deg);
+          transform: rotate(97.5deg) translate(14rem) rotate(-97.5deg);
 }
 
 .skill-card:nth-child(5).display-skillcard {
   opacity: 1;
-  -webkit-transform: rotate(144deg) translate(14rem) rotate(-144deg);
-          transform: rotate(144deg) translate(14rem) rotate(-144deg);
+  -webkit-transform: rotate(130deg) translate(14rem) rotate(-130deg);
+          transform: rotate(130deg) translate(14rem) rotate(-130deg);
 }
 
 .skill-card:nth-child(6).display-skillcard {
   opacity: 1;
-  -webkit-transform: rotate(180deg) translate(14rem) rotate(-180deg);
-          transform: rotate(180deg) translate(14rem) rotate(-180deg);
+  -webkit-transform: rotate(162.5deg) translate(14rem) rotate(-162.5deg);
+          transform: rotate(162.5deg) translate(14rem) rotate(-162.5deg);
 }
 
 .skill-card:nth-child(7).display-skillcard {
   opacity: 1;
-  -webkit-transform: rotate(216deg) translate(14rem) rotate(-216deg);
-          transform: rotate(216deg) translate(14rem) rotate(-216deg);
+  -webkit-transform: rotate(195deg) translate(14rem) rotate(-195deg);
+          transform: rotate(195deg) translate(14rem) rotate(-195deg);
 }
 
 .skill-card:nth-child(8).display-skillcard {
   opacity: 1;
-  -webkit-transform: rotate(252deg) translate(14rem) rotate(-252deg);
-          transform: rotate(252deg) translate(14rem) rotate(-252deg);
+  -webkit-transform: rotate(227.5deg) translate(14rem) rotate(-227.5deg);
+          transform: rotate(227.5deg) translate(14rem) rotate(-227.5deg);
 }
 .skill-card:nth-child(9).display-skillcard {
   opacity: 1;
-  -webkit-transform: rotate(288deg) translate(14rem) rotate(-288deg);
-          transform: rotate(288deg) translate(14rem) rotate(-288deg);
+  -webkit-transform: rotate(260deg) translate(14rem) rotate(-260deg);
+          transform: rotate(260deg) translate(14rem) rotate(-260deg);
 }
 
 .skill-card:nth-child(10).display-skillcard {
   opacity: 1;
-  -webkit-transform: rotate(324deg) translate(14rem) rotate(-324deg);
-          transform: rotate(324deg) translate(14rem) rotate(-324deg);
+  -webkit-transform: rotate(292.5deg) translate(14rem) rotate(-292.5deg);
+          transform: rotate(292.5deg) translate(14rem) rotate(-292.5deg);
+}
+.skill-card:nth-child(11).display-skillcard {
+  opacity: 1;
+  -webkit-transform: rotate(325deg) translate(14rem) rotate(-325deg);
+          transform: rotate(325deg) translate(14rem) rotate(-325deg);
 }
 
 .skill-icon-container {
